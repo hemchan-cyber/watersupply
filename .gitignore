@@ -1,0 +1,71 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+
+# Ignore local environments
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# Django settings
+*.sqlite3
+db.sqlite3
+*.pyc
+
+# macOS
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Node modules (if using Node.js for frontend assets)
+node_modules/
+
+# Static and media files (if generated dynamically)
+staticfiles/
+media/
+
+# Ignore compiled, cache, and temporary files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+.idea/
+__pycache__/
+
+# Ignore coverage and test reports
+.coverage
+.tox
+coverage.xml
+nosetests.xml
+test-results/
+htmlcov/
+
+# Pipfile
+Pipfile.lock
+
+# Ignore secrets
+secrets.json
+config/settings/local.py
+*.key
+
+# Local development overrides
+*.local
+local_settings.py
